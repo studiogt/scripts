@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "default scripts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://studiogt:sgt357357@github.com/studiogt/scripts.git"
+  },
+  "author": "Fábio Dias <fabio@studiogt.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studiogt/scripts/issues"
+  },
+  "homepage": "https://github.com/studiogt/scripts#readme"
+}
