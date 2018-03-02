@@ -118,7 +118,8 @@ String.prototype.isEmail = function() {
 
 String.prototype.isPhone = function() {
     var regex = /\([1-9][1-9]\) [2-9][0-9]{3}-[0-9]{4,5}/;
-    return regex.test(this);
+    var regex2 = /\([1-9][1-9]\) [2-9][0-9]{3,4}-[0-9]{4}/;
+    return regex.test(this) || regex2.test(this);
 }
 
 String.prototype.isFullName = function() {
