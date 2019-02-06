@@ -43,6 +43,12 @@
                             v = false;
                         }
                         break;
+                    case 'cpf_cnpj':
+                    case 'cnpj_cpf': 
+                        if (!$input.val().isCNPJ() && !$input.val().isCPF()) {
+                            v = false;
+                        }
+                        break;
                     case 'cnpj':
                         if (!$input.val().isCNPJ()) {
                             v = false;
