@@ -10,7 +10,7 @@
     // minified (especially when both are regularly referenced in your plugin).
 
     // Create the defaults once
-    var pluginName = 'validate';
+    var pluginName = 'validate_sgt';
 
 
     $.fn[pluginName] = function() {
