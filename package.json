@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://studiogt:sgt357357@github.com/studiogt/scripts.git"
+    "url": "git+https://github.com/studiogt/scripts.git"
   },
   "author": "Fábio Dias <fabio@studiogt.com.br>",
   "license": "ISC",
