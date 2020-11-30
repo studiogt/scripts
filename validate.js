@@ -27,7 +27,7 @@
                 } else if ($input.data('name')) {
                     msg = "O campo "+$input.data('name')+" é obrigatório.";
                 }
-                alert(msg);
+                swal(msg);
                 $input.focus();             
             } else if ($input.is(':text,:password,select,textarea') && $input.data('validtype')) {
                 validType = $input.data('validtype');
@@ -90,7 +90,7 @@
                     } else if ($input.data('name')) {
                         msg = "O campo "+$input.data('name')+" foi informado incorretamente."
                     }
-                    alert(msg);
+                    swal(msg);
                     $input.focus();
                 }               
 
@@ -104,7 +104,7 @@
                     } else if ($input.data('name')) {
                         msg = "O campo "+$input.data('name')+" é obrigatório.";
                     }
-                    alert(msg);                 
+                    swal(msg);                 
                 }
             }
             
